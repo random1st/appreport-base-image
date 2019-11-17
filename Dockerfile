@@ -14,7 +14,7 @@ RUN apk update \
   && apk add libxml2-dev libxslt-dev
 
 
-pip install bs4==0.0.1 \
+RUN pip install bs4==0.0.1 \
             cryptography==2.6.1 \
             lxml==4.2.4 \
             Pillow==5.4.1
